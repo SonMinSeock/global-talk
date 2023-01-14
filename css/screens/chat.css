@@ -1,18 +1,18 @@
 #chat-screen {
-  background-color: #abc1da;
+  background-color: #c0afc9;
   height: 500vh;
 }
 
 #chat-screen #status-bar {
-  background-color: #abc1da;
-  z-index: 1;
+  background-color: #c0afc9;
+  z-index: 3;
 }
 
 #chat-screen .alt-header {
   position: fixed;
   width: 100%;
   top: 10px;
-  background-color: #abc1da;
+  background-color: #c0afc9;
 }
 
 .main-chat {
@@ -36,7 +36,7 @@
 
 .chat__titmestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: #c0afc9;
   padding: 8px 15px;
   font-size: 14px;
   border-radius: 25px;
@@ -74,7 +74,6 @@
   display: flex;
   margin-bottom: 25px;
   animation: meassageFadeIn 0.8s linear forwards;
-  animation-delay: 0.8s;
 }
 
 .message-row img {
@@ -114,11 +113,31 @@
   opacity: 0;
   justify-content: flex-end;
   animation: meassageOwnFadeIn 0.8s linear forwards;
+}
+
+.message-first .message__bubble,
+.message-second .message__bubble {
+  margin-right: 5px;
+}
+.message-first {
+  animation-delay: 0.8s;
+}
+
+.message-row-first--own {
   animation-delay: 2s;
 }
 
+.message-second {
+  animation-delay: 3.5s;
+}
+
+.message-row-second--own {
+  animation-delay: 4.8s;
+}
+
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--blue);
+  color: white;
   border-top-left-radius: 15px;
   border-top-right-radius: 0px;
 }
@@ -202,4 +221,12 @@
 
 .refly:focus-within {
   transform: translateY(80px);
+}
+
+.message__bubble img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 3px;
+  margin-top: 10px;
 }

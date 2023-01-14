@@ -32,6 +32,7 @@
 .open-post {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .open-post__column__title {
@@ -120,4 +121,29 @@
 .open-post__heart__count:hover i {
   will-change: transform;
   animation: heartBeat 2s linear infinite;
+}
+
+.learn-langugage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.learn-langugage__list {
+  text-align: center;
+}
+
+.learn-langugage__list__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.fa-user {
+  color: black;
+}
+
+.leanpub-solid {
+  color: var(--blue);
 }

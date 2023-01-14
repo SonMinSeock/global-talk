@@ -24,9 +24,6 @@
 }
 
 .more-suggestions__icon__image {
-  background-color: var(--yellow);
-  width: 60px;
-  height: 60px;
   border-radius: 10px;
   color: white;
   font-size: 28px;
@@ -34,4 +31,14 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.more-suggestions__icon__image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.user-component__column .fa-message {
+  color: var(--blue);
 }

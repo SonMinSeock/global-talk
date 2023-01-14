@@ -11,13 +11,15 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
-.friends-screen__channel {
+.friends-screen__channel,
+.friends-screen__friends {
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
-.friends-screen__channel__header {
+.friends-screen__channel__header,
+.friends-screen__friends__header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -39,11 +41,37 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  /*background-color: var(--yellow);*/
+  background-color: var(--blue);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 122px;
+  font-size: 92px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
+  color: #fafafa;
+}
+
+#splash-screen span {
+  font-size: 42px;
+  font-weight: 600;
+  position: relative;
+}
+
+#splash-screen .fa-comment {
+  position: absolute;
+  top: -24px;
+  right: -48px;
+}
+
+.friends-screen__friends .user-component__column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+  color: black;
+}
+
+.nav__btn .user-solid {
+  color: var(--blue);
 }

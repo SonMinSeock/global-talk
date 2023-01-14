@@ -1,10 +1,12 @@
 .alt-header {
   display: flex;
   padding: var(--horizontal-space);
+  align-items: center;
+  z-index: 1;
 }
 
 .alt-header__column__title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
 }
 

@@ -2,13 +2,17 @@
   position: absolute;
   z-index: 10;
   top: 0;
-  background-color: var(--yellow);
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  color: white;
+  background-image: url("https://mobileappdiary.com/wp-content/uploads/2020/09/Animation-in-Mobile-Apps.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 645px) {

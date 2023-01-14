@@ -62,3 +62,11 @@
 .nav__btn:last-child {
   animation-delay: 0.8s;
 }
+
+.comment-solid {
+  color: var(--blue);
+}
+
+.nav__btn .select {
+  color: var(--blue);
+}

@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 .user-component,
@@ -51,4 +52,22 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+
+.user-component__column__image {
+  position: relative;
+}
+
+.country {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2px;
+  left: -6px;
+}
+
+.xl {
+  width: 25px;
+  height: 25px;
 }

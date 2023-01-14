@@ -1,5 +1,5 @@
 .circle {
-  background-color: tomato;
+  background-color: var(--blue);
   width: 5px;
   height: 5px;
   border-radius: 13px;

@@ -1,0 +1,42 @@
+#account-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#account-form input {
+  border: none;
+}
+
+#account-form input:not([type="submit"]) {
+  border-bottom: 1px solid var(--blue);
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#account-form input[type="submit"] {
+  background-color: var(--blue);
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cancle-btn__link {
+  background-color: #efefef;
+  display: block;
+  vertical-align: middle;
+  margin: 0 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 25px;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: 25px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Global Talk</title>
+    <title>Create Account Global Talk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -24,24 +24,20 @@
     </div>
     <header class="welcome-header">
       <h1 class="welcome-header__title">
-        Welcome to Global Talk
-        <i class="fa-solid fa-comment"></i>
+        Create Account Global Talk <i class="fa-solid fa-comment"></i>
       </h1>
     </header>
-    <form action="friends.html" method="get" class="login-form">
-      <input
-        name="username"
-        type="text"
-        placeholder="Email Or Phone Number"
-        required
-      />
-      <input name="password" type="password" placeholder="Password" required />
-      <input type="submit" value="Log In" />
+    <form action="index.html" method="get" id="account-form">
+      <input type="text" placeholder="User Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      <input type="text" placeholder="Nick Name" required />
+      <input type="submit" value="Account" />
     </form>
-    <div class="account-form">
-      <a class="account-btn" href="signup.html"> Create Account </a>
-      <a class="find__link" href="#">Find Global Talk Account or Password</a>
-    </div>
+
+    <a class="cancle-btn__link" href="index.html">Cancle</a>
+
     <div id="no-mobile"></div>
     <script
       src="https://kit.fontawesome.com/3c3339ad46.js"

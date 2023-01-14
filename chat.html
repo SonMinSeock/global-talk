@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat - Kakao Talk</title>
+    <title>Chat - Global Talk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body id="chat-screen">
     <div id="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>LG U+</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
@@ -25,11 +25,11 @@
     <header class="alt-header">
       <div class="alt-header__column">
         <a href="chats.html">
-          <i class="fa-solid fa-chevron-left fa-3x"></i>
+          <i class="fa-solid fa-chevron-left fa-2x"></i>
         </a>
       </div>
       <div class="alt-header__column">
-        <h3 class="alt-header__column__title">Son MinSeock</h3>
+        <h3 class="alt-header__column__title">Marvel Group</h3>
       </div>
       <div class="alt-header__column">
         <span>
@@ -42,21 +42,46 @@
     </header>
     <main class="main-screen main-chat">
       <div class="chat__titmestamp">Tuesday, June 30, 2022</div>
-      <div class="message-row">
+      <div class="message-row message-first">
         <img src="img/avata.jpeg" />
         <div class="message-row__content">
           <span class="message__author">Son MinSeock</span>
           <div class="message__info">
-            <span class="message__bubble">Hi!</span>
-            <span class="message__time">21:27</span>
+            <span class="message__bubble">who are your favorite heroes?</span>
+            <span class="message__time">20:03</span>
           </div>
         </div>
       </div>
-      <div class="message-row message-row--own">
+      <div class="message-row message-row--own message-row-first--own">
         <div class="message-row__content">
           <div class="message__info">
-            <span class="message__bubble">Hi nice to meet you.</span>
-            <span class="message__time">21:27</span>
+            <span class="message__bubble"
+              >Like Iron Man or Doctor Strange!</span
+            >
+            <span class="message__time">20:08</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-second">
+        <img src="img/avata.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">Son MinSeock</span>
+          <div class="message__info">
+            <span class="message__bubble">I like it too!</span>
+            <span class="message__time">20:12</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own message-row-second--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">
+              Like Iron Man or Doctor Strange!
+              <img
+                src="https://mblogthumb-phinf.pstatic.net/MjAxOTA3MjZfMTg0/MDAxNTY0MTM2NDIyMDQ1.BXVyDiMn-H2s3MaabZQVv4Pjc-BLeq8H8Qooc7kYTIgg.lbaC82za5b7oOh3Xg3RDODgXszeEIGo0HOQdJjT2tMQg.JPEG.netbotz/59345487_167326817603410_1916385109789493882_n.jpg?type=w2"
+              />
+            </span>
+            <span class="message__time">20:14</span>
           </div>
         </div>
       </div>
@@ -73,9 +98,7 @@
         </button>
       </div>
     </form>
-    <div id="no-mobile">
-      <span>Your Screen is too big :(</span>
-    </div>
+    <div id="no-mobile"></div>
     <script
       src="https://kit.fontawesome.com/3c3339ad46.js"
       crossorigin="anonymous"
